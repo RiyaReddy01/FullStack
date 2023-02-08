@@ -1,0 +1,18 @@
+BODY{
+    background-color: bisque;
+
+
+}
+.block
+{
+float:left;
+width:32.3%;
+border:3px solid #ccc;
+padding-bottom:10px;
+box-sizing:border-box;
+}
+
+
+section{
+    background-color: brown;
+}

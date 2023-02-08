@@ -1,0 +1,61 @@
+
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .Cont {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+  
+  }
+  
+  .ContMid {
+    flex: 50%;
+  }
+  
+  .ContBig {
+    flex: 75%;
+  }
+  
+  .ContMid,
+  .ContBig {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .btn {
+    background-color: #157c98;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #1b421d;
+  }
