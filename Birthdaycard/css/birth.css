@@ -1,0 +1,59 @@
+body{
+    background-image: url('/images/bg2.jpg') ;
+    background-repeat: no-repeat;
+    height: 100;
+    background-size: 100%;
+    
+} 
+    H1{
+    text-align: center;
+    color :maroon;
+    background-color: antiquewhite;
+    margin-top: 0%;
+}
+
+.card{
+    background-color: antiquewhite;
+    border-radius: 4px;
+    height: 500px;
+    width: 600px;
+    align-items: center;
+    margin-left: 400px;
+    text-decoration: double;
+    text-size-adjust: 10px;
+    margin-top: 60px;
+} 
+    @keyframes car {
+        from{background-color: red;}
+        to{background-color:rgb(255, 0, 191)}
+        
+    }
+    .card{
+        background-color: bisque;
+        animation: car;
+        animation-duration: 15s;
+    }
+    
+
+
+.balloon img{
+    height: 100px;
+    position: absolute;
+}
+.balloon img:nth-child(1){
+    left: 920px;
+}
+.person{
+    align-items: center;
+    height:200px;
+    width: 250px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
