@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FEEDBACK FORM</title>
+        <Link rel="stylesheet" type="text/css" href="feed.css">
+           
+    </head>
+    <body>
+        <div>
+        <h1 class="me"> <i> Please give us your valuable feedback</i></h1></div>
+
+        <form>
+            <div>
+                NAME: <br>
+                <input type="text" name="name"><br><br>
+            </div>
+            <div>
+                PHONENUMBER: <br>
+                <input type="number" name="ph.no"><br><br>
+            </div>
+            <div>
+                EMAIL: <br>
+                <input type="email" name="mail"><br><br>
+            </div>
+            <div>
+                GENDER: <br>
+                <select>
+                    <option value= "male" >male</option>
+                    <option value= "female" >female </option>
+                    <option value= "others" >other</option>
+                </select>
+                <br>
+                <br>
+            </div>
+           
+            <div>
+
+            
+                DATE: <br>
+                <input type="date" placeholder="Enter the date you purchased the product"><br><br>
+        </div>
+        <div>
+            Why do you want to return your product?<br>
+            <label> Not satisfied with the product</label>
+            <input type="checkbox" id="satisfaction" value="Not satisfied with the product"/><br>
+
+            <label>Got a damaged product</label><br>
+            <input type="checkbox" id="damage" value="Got a damaged product"/><br>
+
+            <label>Product is not good as expected</label><br>
+            <input type="checkbox" id="expectation" value="Product is not good as expected"/><br>
+
+            <label>Need a replacement </label><br>
+            <input type="checkbox" id="satisfaction" value="Need a replacement"/>
+
+
+
+        </div>
+        <br>
+        <br>
+        <div>
+            Please select an option:<br>
+            <label>Good</label>
+            <input type="radio" id="Good" value="Good"><br>
+            <label>satisfied</label>
+            <input type="radio" id="satisfied" value="satisfied"><br>
+            <label>Return</label>
+            <input type="radio" id="return" value="return"><br>
+            <label>Replacement</label>
+            <input type="radio" id="replacement" value="replacement"><br>
+            <br>
+            <br>
+            
+        </div>
+        
+        <div>
+            <p> Please select a valuable reason</p>
+          <input type="text" list="reason">
+          <datalist id="reason">
+            <option value="defect"></option>
+            <option value="replacement"></option>
+            <option value="not satisfied"></option>
+            <option value="very underrated"></option>
+            <option value="not an expected size"></option>
+            <option value="different product was delivered"></option>
+            <option value="other"></option>
+          </datalist>
+        </div>
+        <div>
+            Please give us your thoughts on our products:<br>
+
+            <textarea cols="25" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="submit" style="background-color: rgb(139, 34, 34); color:rgb(244, 240, 240);">
+        </div>
+
+</form>
+    </body>
+</html>
